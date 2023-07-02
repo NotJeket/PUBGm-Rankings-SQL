@@ -18,7 +18,7 @@ def read_json_url(url):
 
 
 def get_total_points(team_name):
-    conn = sqlite3.connect("C://Users//NotJeket//Desktop//royal//from api to db&sheet//Test.db")
+    conn = sqlite3.connect("PATH TO SQL DB")
     cursor = conn.cursor()
 
     select_statement = "SELECT total_points FROM final_table WHERE team_name = ?"
