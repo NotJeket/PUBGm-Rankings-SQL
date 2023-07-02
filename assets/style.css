@@ -1,0 +1,122 @@
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.team-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.team-container {
+    animation-name: fade;
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 20px;
+    width: 18%; /* Adjust the width as per your preference */
+    box-sizing: border-box;
+    margin-left: 40px;
+    margin-right: 40px;
+    height: 70px;
+}
+
+.team-container-placeholder {
+    animation-name: fade;
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 20px;
+    width: 18%; /* Adjust the width as per your preference */
+    box-sizing: border-box;
+    margin-left: 40px;
+    margin-right: 40px;
+    height: 70px;
+
+}
+
+.team-logo-info-container {
+    display: flex;
+    align-items: center;
+}
+
+.team-logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    shadow: 1px 1px 2px white;
+    padding-left: 5px;
+}
+
+.team-info {
+    display: flex;
+    flex-direction: column; /* Update the flex-direction to column */
+    align-items: flex-start; /* Adjust alignment as per your preference */
+}
+
+.team-name {
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+
+.team-eliminations {
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    margin-bottom: 2px;
+
+}
+
+.team-rank {
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    margin-bottom: 0px;
+}
+
+
+.team-logo-placeholder {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  shadow: 1px 1px 2px white;
+  padding-left: 5px;
+}
+
+.team-name-placeholder {
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+  margin-bottom: 5px;
+}
+
+.team-eliminations-placeholder {
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+  margin-bottom: 2px;
+}
+
+.team-rank-placeholder {
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    margin-bottom: 2px;
+}
