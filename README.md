@@ -7,7 +7,7 @@ This program displays customized splash screens for a gaming app. It retrieves d
 -   Retrieves team and player data from an API.
 -   Creates customized splash screens for each team.
 -   Displays team logos, team names, team eliminations, and player information with live states.
--   Different Pics for different player livestates
+-   Displays total points from a SQL database.
 -   Updates the splash screens at regular intervals.
 
 **Installation**
@@ -33,7 +33,8 @@ python your_program_file.py
 
 **Screenshot**
 
-![image](https://github.com/NotJeket/PUBGm-Rankings/assets/37781149/b4208b3c-977b-4ff4-8e6b-27d97badaa67)
+![image](https://github.com/NotJeket/PUBGm-Rankings-SQL/assets/37781149/b991ce1a-0284-4bd5-b9c1-319bac81821f)
+
 
 **Flowchart**
 
